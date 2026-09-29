@@ -196,3 +196,5 @@ Hasil: **10 passed (35 assertions)**.
   <strong>&copy; 2026 M Daffa Dzakwan (NIM: 4251250015) - Tugas Rutin 9 - Setup Laravel</strong><br>
   Mata Kuliah Pemrograman Web - Dosen: Adidtya Perdana, ST., M.KOM
 </p>
+#   T u g a s W e b - P 9 - L a r a v e l S e t u p  
+ 
