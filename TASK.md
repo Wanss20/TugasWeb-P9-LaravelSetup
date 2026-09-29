@@ -18,7 +18,7 @@ Tugas Rutin 9 berfokus pada instalasi dasar framework **Laravel 11**, konfiguras
 |:--:|:---|:---|:---:|
 | 1 | **Instalasi Laravel** | Instalasi Laravel 11 via Composer: `composer create-project laravel/laravel .` di folder `tr 9`. | ✅ Done |
 | 2 | **Konfigurasi Database** | Buat database MySQL di phpMyAdmin (`daffa_inventory_db` / `myproduct_db`), sesuaikan konfigurasi `.env`, dan verifikasi koneksi via `php artisan migrate`. | ✅ Done |
-| 3 | **Eksekusi Server & Bukti Welcome** | Server aktif via `php artisan serve` (`http://127.0.0.1:8000`) dan tangkapan layar tersimpan rapi di `docs/screenshots/ss-welcome.png`. | ⏳ Screenshot Manual |
+| 3 | **Eksekusi Server & Bukti Welcome** | Server aktif via `php artisan serve` (`http://127.0.0.1:8000`) dan tangkapan layar tersimpan rapi di `docs/screenshots/ss-welcome.png`. | ✅ Done |
 | 4 | **3 Route Custom Blade View** | Mendefinisikan rute `/`, `/about`, `/contact`, serta route tambahan `/welcome` untuk mempermudah akses kembali ke welcome page asli Laravel. | ✅ Done |
 | 5 | **Render Data Dinamis (Array)** | Mengirimkan data array dinamis dari `MainController` ke view (`$data['modul']`, `$info`, `$kontak`) dan merendernya via `@foreach` Blade directive. | ✅ Done |
 | 6 | **Generator MVC (Controller & Model -m)** | • `php artisan make:controller MainController`<br>• `php artisan make:controller ProductController`<br>• `php artisan make:model Product -m` (menghasilkan Model `Product` & migrasi skema tabel `products` di `database/migrations/`). | ✅ Done |
@@ -142,7 +142,7 @@ TugasWeb-P9-LaravelSetup/
   php artisan serve
   ```
 - [x] Buka browser di `http://127.0.0.1:8000`.
-- [ ] Buat folder `docs/screenshots/` dan simpan tangkapan layar Welcome Page di `docs/screenshots/ss-welcome.png`. *(⚠️ Screenshot manual oleh mahasiswa)*
+- [x] Buat folder `docs/screenshots/` dan simpan tangkapan layar Welcome Page di `docs/screenshots/ss-welcome.png`.
 
 ### Tahap 4: Eksekusi Generator MVC (Requirement 6)
 - [x] Generate `MainController`:
